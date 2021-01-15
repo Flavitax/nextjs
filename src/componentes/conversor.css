@@ -1,0 +1,43 @@
+.conversor {
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    min-width: 250px;
+}
+
+.conversor input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    outline: none;
+    font-size: 14px;
+}
+
+.conversor input[type="text"]:focus {
+    border-color: royalblue;
+}
+
+.conversor input[type="button"] {
+    background-color: black;
+    border: 1px solid transparent;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.conversor input {
+    margin: 5px 0;
+}
+
+.conversor h2 {
+    margin: 5px 0;
+}
+
+.conversor p {
+    text-align: center;
+}
